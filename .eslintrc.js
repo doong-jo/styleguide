@@ -27,7 +27,6 @@ module.exports = {
         'object-curly-newline': 'off',
         'implicit-arrow-linebreak': 'off',
         'operator-linebreak': 'off',
-        'newlines-between': 'always',
         'import/prefer-default-export': 'off',
         'import/no-extraneous-dependencies': [
           'error',
