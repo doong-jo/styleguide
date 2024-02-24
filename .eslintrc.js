@@ -14,6 +14,7 @@ module.exports = {
         'airbnb',
         'airbnb/hooks',
         'airbnb-typescript',
+        "next/core-web-vitals"
       ],
       rules: {
         '@typescript-eslint/indent': 'off',
@@ -58,7 +59,7 @@ module.exports = {
               },
               {
                 pattern:
-                  '{@dictionary,@components/*,@apis/*,@utils,@utils/*,@data-access,@theme,@assets/**/*,@data-access/**/*,@gen/**/*}',
+                  '{@dictionary,@components,@hooks,@utils,@data-access,@assets/**/*}',
                 group: 'parent',
                 position: 'before',
               },

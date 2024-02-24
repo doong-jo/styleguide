@@ -1,0 +1,12 @@
+{
+  "files.exclude": {
+    "node_modules/": true
+  },
+  "cSpell.words": [],
+  "tailwindCSS.classAttributes": ["style"],
+  "tailwindCSS.experimental.classRegex": [
+    "tw`([^`]*)",
+    ["cva(?:<[^>]*>)?([^)]*)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    ["className={{([^}]*)", "[\"'`]([^\"'`]*).*?[\"'`]"]
+  ]
+}
